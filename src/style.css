@@ -385,6 +385,7 @@ img {
   width: 24px;
   height: 100%;
   cursor: pointer;
+  filter: invert();
 }
 .footer-2{
   display: flex;
