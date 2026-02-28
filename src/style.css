@@ -176,10 +176,10 @@ img {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 50px;
-  padding: 0px 60px;
+  padding: 0px 120px;
 }
 .company-logo img {
-  width: 170px;
+  width: 150px;
 }
 
 .built-section,
@@ -208,12 +208,11 @@ img {
 
 .built-card-area {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   padding: 100px 50px;
 }
 .card {
-  /* height: 530px; */
   border: none;
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.252);
   border-radius: 8px;
@@ -363,8 +362,6 @@ img {
   display: grid;
   grid-template-columns: 1fr;
   width: 100%;
-  /* height: 500px; */
-  border: none;
   border-top: 1px solid rgba(255, 255, 255, 0.06);
   padding: 0px 130px;
   overflow: hidden;
